@@ -1,0 +1,47 @@
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 70vw;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.content-section h2 {
+    font-weight: bold;
+    font-size: 21px;
+    color: #0a2540;
+    margin-bottom: 16px;
+}
+
+.content-section {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section a {
+    color: #5469d4;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.List {
+    list-style: none;
+    padding-left: 0;
+    line-height: 26px;
+}
+
+.content-section a:hover {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+}

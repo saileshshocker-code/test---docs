@@ -1,0 +1,206 @@
+/* Step 24 */
+.footer {
+    max-width: 1100px;
+    margin: 0px auto;
+    margin-bottom: 40px !important;
+
+}
+
+.footer-container {
+    background-color: #fff;
+    color: #425466;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.footer-container>span[role="separator"] {
+    display: block;
+    height: 1px;
+    background-color: #e6ebf1;
+    margin-bottom: 16px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer-links li {
+    display: flex;
+    align-items: center;
+    color: #425466;
+    font-size: 15px;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: #5469d4;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-newsletter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 520px;
+    min-width: 300px;
+}
+
+.newsletter-title {
+    font-size: 14px;
+    color: black !important;
+    margin-bottom: 4px;
+}
+
+.footer-newsletter {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.footer-newsletter input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #e6ebf1;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+}
+
+.footer-newsletter input:focus {
+    border-color: #635bff;
+    box-shadow: 0 0 0 1px #635bff;
+}
+
+.footer-newsletter {
+    position: relative;
+    max-width: 650px;
+}
+
+.footer-newsletter input {
+    width: 100%;
+
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: white;
+}
+
+.footer-newsletter input::placeholder {
+    color: #9ca3af;
+}
+
+.footer-newsletter input:focus {
+    outline: none;
+    border-color: #9ca3af;
+}
+
+.footer-newsletter button {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #9ca3af;
+    /* Light gray text */
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.footer-newsletter button:hover:not(:disabled) {
+    color: #6b7280;
+}
+
+.footer-newsletter button:disabled {
+    cursor: not-allowed;
+    color: #d1d5db;
+}
+
+
+
+
+.footer-note {
+    font-size: 13px;
+    color: #425466;
+    margin-top: 8px;
+}
+
+.footer-note a {
+    color: #635bff;
+    text-decoration: none;
+}
+
+.footer-note a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+.title-separator {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #d8dee4;
+    margin-bottom: 40px;
+    border: none;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-links {
+        flex: 1;
+    }
+
+    .footer-newsletter-section {
+        flex: 1;
+        align-items: flex-start;
+    }
+}
+
+/* Step 24 End*/
+
+/* Step 26 */
+
+.sidebar-footer {
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    z-index: 1000;
+}
+
+
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Step 26 End */

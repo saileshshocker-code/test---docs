@@ -1,0 +1,677 @@
+/* Step 1 */
+d360-article-header, 
+.accordion, 
+d360-article-navigator, 
+d360-related-articles, 
+d360-sticky-header,.pinned-section { 
+    display: none !important; 
+} 
+/* Step 1 End */
+
+
+/* Step 2 */
+
+.secondary-nav-bar-r::after {  
+    content: "Ask AI";  
+    display: inline-flex;  
+    align-items: center;  
+    gap: 6px;  
+    padding: 4px 12px;  
+    background: white;  
+    color: #596171;  
+    border: #d8dee4 solid 1px;  
+    border-radius: 6px;  
+    font-size: 14px;  
+    white-space: nowrap;  
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M11.472 2.624a.25.25 0 0 0 .152-.152l.64-1.807A.246.246 0 0 1 12.5.499c.098 0 .196.055.236.166l.64 1.807a.25.25 0 0 0 .152.152l1.807.64c.111.04.166.138.166.236a.246.246 0 0 1-.166.236l-1.807.64a.25.25 0 0 0-.152.152l-.64 1.807a.246.246 0 0 1-.236.166.246.246 0 0 1-.236-.166l-.64-1.807a.25.25 0 0 0-.152-.152l-1.807-.64A.246.246 0 0 1 9.5 3.5c0-.098.055-.196.166-.236l1.807-.64Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="m7 5.491-.56 1.58a2.25 2.25 0 0 1-1.37 1.37L3.492 9l1.58.56a2.25 2.25 0 0 1 1.37 1.37L7 12.508l.56-1.58a2.25 2.25 0 0 1 1.37-1.37L10.508 9l-1.58-.56a2.25 2.25 0 0 1-1.37-1.37L7 5.492Zm.707-2.496a.737.737 0 0 0-.707-.5.737.737 0 0 0-.707.5L5.026 6.57a.75.75 0 0 1-.456.456L.995 8.293a.737.737 0 0 0-.5.707c0 .294.167.589.5.707l3.575 1.267a.75.75 0 0 1 .456.456l1.267 3.575c.118.333.413.5.707.5a.737.737 0 0 0 .707-.5l1.267-3.575a.75.75 0 0 1 .456-.456l3.575-1.267a.737.737 0 0 0 .5-.707.737.737 0 0 0-.5-.707L9.43 7.026a.75.75 0 0 1-.456-.456L7.707 2.995Z"/></svg>');  
+    background-repeat: no-repeat;  
+    background-position: right 8px center;  
+    padding-right: 30px;  
+    margin-left: 6px;  
+}  
+
+.shortcut-text {  
+  	border: none !important; 
+    background: #f5f6f8 !important;  
+}  
+
+.secondary-nav-bar-container .nav-bar.secondary-nav-bar .secondary-nav-bar-r .search-box { 
+    height: 32px !important; 
+    padding: 3px !important; 
+} 
+
+/* Step 2 End */
+
+/* Step 3 */
+
+#articleContent> :nth-child(2) { 
+    font-weight: 400 !important; 
+    line-height: 32px !important; 
+    font-size: 24px !important; 
+    color: rgb(26, 31, 54) !important; 
+} 
+
+#articleContent> :first-child { 
+    font-weight: 700 !important; 
+} 
+
+/* Step 3 End */
+
+/* Step 4 */
+li.home a { 
+    display: none !important; 
+} 
+
+li.home::after { 
+    content: "Home" 
+} 
+
+.breadcrumb-nav ul li:before { 
+    content: "/" !important; 
+    font-family: "Font Awesome 6 Pro"; 
+    color: var(--body-secondary-color-1); 
+    font-weight: 300; 
+    font-size: .75rem; 
+    position: relative; 
+    width: 16px; 
+    height: 16px; 
+    line-height: 16px; 
+    text-align: center; 
+
+} 
+
+.breadcrumb-nav ul li { 
+    line-height: 20px; 
+    font-weight: 400; 
+    font-size: 14px; 
+    color: #697386; 
+} 
+
+
+.breadcrumb-scroll li:first-child { 
+    display: none !important; 
+} 
+/* Step 4 End */
+
+/* Step 5 */
+site-docs-content-panel-container { 
+    max-width: 1175px; 
+    padding: 32px 48px 0px 48px; 
+    margin-left: 45px !important; 
+} 
+/* Step 5 End */
+
+/* Step 6 */
+
+site-docs-left-panel-container { 
+
+    max-width: 280px !important; 
+
+} 
+
+  
+
+.main-content { 
+
+    padding: 0 0 0 !important; 
+
+} 
+
+  
+
+.data-title { 
+
+    font-size: 14px !important; 
+
+    font-weight: 400 !important; 
+
+} 
+
+ 
+
+.left-container { 
+
+    padding: 12px 25px 16px 12px !important; 
+
+} 
+
+  
+
+  
+
+.filler, 
+
+.tree-active-circle, 
+
+.article-status.update { 
+
+    visibility: hidden !important; 
+
+} 
+
+  
+
+.tree-wrapper.active .data-title { 
+
+    font-weight: 500 !important; 
+
+    color: rgb(84, 105, 212) !important; 
+
+} 
+
+ 
+
+.tree-wrapper.active.highlight{ 
+
+  background: none !important; 
+
+} 
+
+  
+
+.tree-wrapper { 
+
+    height: 32px !important; 
+
+} 
+
+  
+
+d360-data-list-tree-view { 
+
+    overflow-y: auto; 
+
+} 
+
+  
+
+.left-container { 
+
+    position: fixed !important; 
+
+    top: 60px; 
+
+    left: 0; 
+
+    overflow: hidden; 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+  
+
+} 
+
+  
+
+#left-panel { 
+
+    min-width: 300px !important; 
+
+    max-width: 300px !important; 
+
+} 
+
+  
+
+.pinned-section { 
+
+    flex-shrink: 0; 
+
+    position: relative; 
+
+    z-index: 20; 
+
+    background: inherit; 
+
+    padding-bottom: 8px; 
+
+} 
+
+  
+
+.catergory-list { 
+
+    flex: 1 1 auto; 
+
+    overflow-y: auto; 
+
+    overflow-x: hidden; 
+
+    position: relative; 
+
+    min-height: 0; 
+
+top: 37px !important; 
+
+} 
+
+  
+
+.ng-scrollbar, 
+
+.virtual-scroll { 
+
+    height: 100% !important; 
+
+    max-height: none !important; 
+
+} 
+
+  
+
+.cdk-virtual-scroll-viewport { 
+
+    height: 100% !important; 
+
+    max-height: none !important; 
+
+} 
+
+  
+
+.collapse-expand-left-btn { 
+
+    flex-shrink: 0; 
+
+    position: sticky; 
+
+    bottom: 0; 
+
+    z-index: 20; 
+
+    background: inherit; 
+
+} 
+
+  
+
+.collapse-expand-left-btn::after { 
+
+    content: ''; 
+
+    position: absolute; 
+
+    top: -8px; 
+
+    left: 0; 
+
+    right: 0; 
+
+    height: 1px; 
+
+    background: rgba(0, 0, 0, 0.06); 
+
+    display: block; 
+
+} 
+
+  
+
+.catergory-list { 
+
+    scroll-behavior: smooth; 
+
+} 
+
+  
+
+.tree-wrapper, 
+
+.node { 
+
+    position: relative; 
+
+} 
+
+  
+
+d360-data-list-tree-view { 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    height: 100%; 
+
+} 
+
+  
+
+.virtual-scroll { 
+
+    flex: 1; 
+
+    min-height: 0; 
+
+    overflow: hidden; 
+
+} 
+
+  
+
+.left-container[style*="min-height"], 
+
+.left-container[style*="max-height"] { 
+
+    min-height: calc(90vh - 60px) !important; 
+
+    max-height: calc(90vh - 60px) !important; 
+
+    top: 60px !important; 
+
+} 
+
+  
+
+.catergory-list::before { 
+
+    content: ''; 
+
+    position: sticky; 
+
+    top: 0; 
+
+    left: 0; 
+
+    right: 0; 
+
+    height: 8px; 
+
+    background: linear-gradient(to bottom, 
+
+            rgba(0, 0, 0, 0.05) 0%, 
+
+            transparent 100%); 
+
+    pointer-events: none; 
+
+    z-index: 10; 
+
+    display: block; 
+
+    opacity: 0; 
+
+    transition: opacity 0.2s ease; 
+
+} 
+
+  
+
+.catergory-list.is-scrolled::before { 
+
+    opacity: 1; 
+
+} 
+
+  
+
+.left-container .catergory-list { 
+
+    top: 37px !important; 
+
+} 
+
+.watermark-brand { 
+
+    flex-shrink: 0; 
+
+    position: sticky; 
+
+    bottom: 0; 
+
+    z-index: 20; 
+
+    background: inherit; 
+
+    padding-top: 16px; 
+
+    margin-top: auto; 
+
+} 
+
+  
+
+.watermark-brand a { 
+
+    display: none !important; 
+
+} 
+/* Step 6 End */
+
+/* Step 7 */
+site-docs-right-panel-container { 
+
+    border-left: none !important;` 
+
+    margin-top: 60px !important; 
+
+    max-width: 250px !important; 
+
+} 
+
+  
+
+.right-expand-collapse-btn { 
+
+    display: none !important; 
+
+} 
+
+.list-unstyled { 
+
+    padding: 0 !important; 
+
+} 
+
+  
+
+.toc-accordion { 
+
+    border-left: none !important; 
+
+} 
+
+  
+
+.toc-accordion ul li .toc-item .align-left { 
+
+    margin-left: 0 !important; 
+
+} 
+
+  
+
+.section-title { 
+
+    font-weight: 500 !important; 
+
+    font-size: 13px !important; 
+
+    color: rgb(26, 31, 54) !important; 
+
+} 
+
+  
+
+.toc-accordion ul li a { 
+
+    font-weight: 400 !important; 
+
+    font-size: 14px !important; 
+
+    line-height: 20px !important; 
+
+    color: #353A44 !important; 
+
+} 
+
+  
+
+.toc-accordion ul li .toc-item.selected>a { 
+
+    color: #5469D4 !important; 
+
+    font-weight: 500 !important; 
+
+} 
+
+  
+
+.toc-toggle-icon { 
+
+    display: none !important; 
+
+} 
+
+  
+
+.ml-3 li { 
+
+    margin-left: 1rem; 
+
+    border-left: 1px solid #ebeef1; 
+
+    margin-top: 4px !important; 
+
+    margin-bottom: 4px !important; 
+
+} 
+
+/* Step 7 End */
+
+/* Step 8 */
+.resources-section, 
+
+.catergory-list { 
+
+    overflow-y: auto; 
+
+    scrollbar-color: #999 transparent; 
+
+} 
+
+  
+
+.resources-section::-webkit-scrollbar, 
+
+.catergory-list::-webkit-scrollbar { 
+
+    width: 6px; 
+
+} 
+
+  
+
+.resources-section::-webkit-scrollbar-track, 
+
+.catergory-list::-webkit-scrollbar-track { 
+
+    background: transparent; 
+
+} 
+
+  
+
+.resources-section::-webkit-scrollbar-thumb, 
+
+.catergory-list::-webkit-scrollbar-thumb { 
+
+    background-color: #8c8c8c; 
+
+    border-radius: 6px; 
+
+} 
+
+  
+
+  
+
+.ng-scrollbar-thumb { 
+
+    display: none !important; 
+
+} 
+
+/* Step 8 End */
+
+/* Step 9 */
+.selector-container { 
+
+    position: fixed !important; 
+
+    bottom: 0px; 
+
+    left: 0; 
+
+    width: 279px; 
+
+    border-top: 1px solid #e5e7eb; 
+
+    z-index: 1001; 
+
+    padding: 6px; 
+
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05); 
+
+} 
+
+  
+
+.selector-item { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    gap: 10px; 
+
+    text-decoration: none; 
+
+    border-radius: 6px; 
+
+    transition: background-color 0.2s; 
+
+    margin-bottom: 4px; 
+
+} 
+
+  
+
+  
+
+.selector-item .icon { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: center; 
+
+    flex-shrink: 0; 
+
+} 
+
+  
+
+.selector-item span { 
+
+    font-size: 14px; 
+
+    font-weight: 400; 
+
+    color: #353A44 !important; 
+
+} 
+/* Step 9 End */
+
+/* Step 10 */
+.feedback-container { 
+
+    border: none !important; 
+
+    margin-top: 64px !important; 
+
+} 
+/* Step 10 End */

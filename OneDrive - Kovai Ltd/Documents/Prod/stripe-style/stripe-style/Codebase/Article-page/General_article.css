@@ -1,0 +1,175 @@
+.toolbar { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    gap: 8px; 
+
+    background: white; 
+
+    border-bottom: 1px solid #e3e8ee; 
+
+    width: 100%; 
+
+    margin-top: 24px; 
+
+    margin-bottom: 28px; 
+
+} 
+
+  
+
+.button-group { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    gap: 8px; 
+
+} 
+
+  
+
+.toolbar-button { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: center; 
+
+    background: transparent; 
+
+    color: #596171 !important; 
+
+    border: none; 
+
+    padding: 8px; 
+
+    gap: 4px; 
+
+    cursor: pointer; 
+
+    position: relative; 
+
+} 
+
+  
+
+  
+
+.toolbar-button svg { 
+
+    width: 16px; 
+
+    height: 16px; 
+
+    fill: #596171 !important; 
+
+} 
+
+  
+
+.separator { 
+
+    width: 1px; 
+
+    height: 20px; 
+
+    background-color: #e0e0e0; 
+
+} 
+
+  
+
+.copy-button { 
+
+    gap: 4px; 
+
+} 
+
+  
+
+.copy-button-text { 
+
+    font-size: 13px; 
+
+    font-weight: 500; 
+
+    white-space: nowrap; 
+
+} 
+
+  
+
+.markdown-button { 
+
+    gap: 6px; 
+
+} 
+
+  
+
+.markdown-icon { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    gap: 4px; 
+
+} 
+
+  
+
+.markdown-icon svg { 
+
+    width: 16px; 
+
+    height: 16px; 
+
+} 
+
+  
+
+.toolbar-button::after { 
+
+    content: attr(data-tooltip); 
+
+    position: absolute; 
+
+    bottom: -30px; 
+
+    left: 50%; 
+
+    transform: translateX(-50%); 
+
+    color: white; 
+
+    padding: 4px 8px; 
+
+    border-radius: 4px; 
+
+    font-size: 12px; 
+
+    white-space: nowrap; 
+
+    opacity: 0; 
+
+    pointer-events: none; 
+
+    transition: opacity 0.2s; 
+
+} 
+
+  
+
+.toolbar-button:hover::after { 
+
+    opacity: 1; 
+
+} 
+
+ 

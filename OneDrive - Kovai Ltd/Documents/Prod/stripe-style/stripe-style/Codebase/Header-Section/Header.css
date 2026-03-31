@@ -1,0 +1,166 @@
+/* Step 2 */
+body,
+h1,
+h2,
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+h1 {
+    font-weight: 700;
+}
+/* Step 2 End*/
+
+/* Step 3 */
+d360-workspace-dropdown,
+.btn.btn-icon.btn-secondary,
+.fa-bullhorn,
+d360-header-profile,
+li:has([aria-label="Whats new"]),
+d360-language-dropdown,
+.collapse-expand-left-btn, d360-tags{
+    display: none !important;
+}
+
+/* Step 3 End*/
+
+/* Step 5 */
+
+.nav-bar-nav>ul>li>a.action-item {
+    padding: 4px 8px !important;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #d8dee4;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a[href="https://dashboard.stripe.com/register"] span {
+    color: #5469d4;
+    font-size: 14px;
+}
+
+a[href="https://dashboard.stripe.com/register"] span:hover {
+    color: black;
+    text-decoration: none;
+}
+/* Step 5 End*/
+
+/* Step 6 */
+
+site-primary-header-section,
+site-secondary-header-section {
+    position: relative;
+    border: none !important;
+    z-index: 1;
+}
+
+/* Step 6 End */
+
+/* Step 8 */
+.main-nav {
+    background: #f5f6f8;
+    border-bottom: 1px solid #e3e8ee;
+    position: absolute;
+    top: 56px;
+    z-index: 2;
+    width: 100%;
+}
+
+
+.nav-container {
+    margin: 0 auto;
+    padding-left: 24px;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.nav-tabs {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-tab {
+    padding: 16px 0;
+    padding-top: 24px;
+    padding-bottom: 8px !important;
+    font-size: 14px;
+    font-weight: 500;
+    color: #425466;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.nav-tab:hover {
+    color: #0a2540;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 16px;
+    margin-right: 24px;
+}
+
+
+.nav-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f5f6f8;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    border: none;
+}
+
+/* Step 8 End*/
+
+/* Step 9*/
+
+site-home-page .search-box {
+    position: absolute !important;
+    top: 14px;
+    left: calc(50% - 38px);
+    margin-top: 0px !important;
+    transform: translateX(-50%);
+    width: 200px !important;
+    height: 32px !important;
+    border-radius: 8px;
+    border-color: #d8dee4;
+    padding: 2px 8px !important;
+    z-index: 1;
+}
+
+.search-box .seach-key,
+.search-box .shortcut-text {
+    font-size: 0px !important;
+}
+
+.search-box .seach-key::after,
+.search-box .shortcut-text::after {
+    content: "/";
+    font-size: 12px;
+}
+
+site-secondary-header-section {
+    position: static;
+}
+
+site-secondary-header-section .secondary-nav-bar-r {
+    position: absolute;
+    top: 14px;
+    left: calc(50% - 38px);
+    margin-top: 0px !important;
+    transform: translateX(-50%);
+    width: 290px !important;
+    z-index: 9;
+}
+
+/* Step 9 End*/
+
